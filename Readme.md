@@ -1,6 +1,14 @@
 # How To Host
 The easiest way to deploy this Bot
-  [https://telegra.ph/file/97a712f2b6abeb2af75f2.jpg](https://t.me/abhinasroy)
+  <p align="center">
+  <a href="https://telegra.ph/file/97a712f2b6abeb2af75f2.jpg">
+     <img height="200px" src="https://telegra.ph/file/97a712f2b6abeb2af75f2.jpg">
+  </a>
+</p>
+
+
+
+
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/roymusicplay/music-roy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-redblack?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 Get STRING_NAME from here:
