@@ -129,7 +129,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, @camilaowner assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>")
+            f"<i>Hey {user.first_name}, @abhinasroy assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel 🔊",
-                        url="https://t.me/warbotz")
+                        url="https://t.me/ABOUT_ABHINAS")
                    
                 ]
             ]
