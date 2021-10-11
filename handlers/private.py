@@ -10,25 +10,25 @@ async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CWXwtVQADumEbXh17uzZt9_VFbx5YMS9X7LmBAAKgCwAC_eJgUYTe7_DjL_XOHgQ")
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎀
-ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ  ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. 
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ 🤗 Developed By [king](https://t.me/abhinasroy) !**
+I̸ c̸a̸n̸ P̸L̸A̸Y̸ M̸U̸S̸I̸C̸ I̸N̸ Y̸O̸U̸R̸ G̸R̸O̸U̸P̸ V̸O̸I̸C̸E̸ C̸H̸A̸T̸. 
+A̸D̸D̸ M̸E̸ T̸O̸ Y̸O̸U̸R̸ G̸R̸O̸U̸P̸ A̸N̸D̸ P̸L̸A̸Y̸ M̸U̸S̸I̸C̸ 🤗 D̸E̸V̸E̸L̸O̸P̸E̸D̸ B̸Y̸ [A̸B̸H̸I̸N̸A̸S̸](https://t.me/abhinasroy) !**
 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔨 Owner🔨", url="https://t.me/abhinasroy")
+                        "🔨O͜͡W͜͡N͜͡E͜͡R͜͡🔨", url="https://t.me/abhinasroy")
                   ],[
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/DOSTI_GROUP_1234"
+                        "G͜͡R͜͡O͜͡U͜͡P͜͡👿", url="https://t.me/DOSTI_GROUP_1234"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url="https://t.me/ABOUT_ABHINAS"
+                        "C͜͡H͜͡A͜͡N͜͡N͜͡E͜͡L͜͡", url="https://t.me/ABOUT_ABHINAS"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/Group_25king_bot?startgroup=true"
+                        "➕A͜͡D͜͡D͜͡ T͜͡O͜͡ Y͜͡O͜͡U͜͡R͜͡ G͜͡R͜͡O͜͡U͜͡P͜͡➕", url="https://t.me/Group_25king_bot?startgroup=true"
                     )]
             ]
         ),
@@ -37,12 +37,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Yes iᴍ online ✅**""",
+      await message.reply_text("""**Y͜͡E͜͡S͜͡ I͜͡M͜͡ O͜͡N͜͡L͜͡I͜͡N͜͡E͜͡ ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/ABOUT_ABHINAS")
+                        "🔊U͜͡P͜͡D͜͡A͜͡T͜͡E͜͡S͜͡", url="https://t.me/ABOUT_ABHINAS")
                 ]
             ]
         )
