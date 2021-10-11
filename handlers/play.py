@@ -261,8 +261,8 @@ async def play(_, message: Message):
                             text="Y̸O̸U̸T̸U̸B̸E̸ 🎬",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="O̸W̸N̸E̸R̸ 📥",
-                            url=f"{durl}")
+                            text="O̸W̸N̸E̸R̸ 😉",
+                            url="https://t.me/abhinasroy")
 
                     ]
                 ]
